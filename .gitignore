@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+.output/
+.wxt/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Lock files (optional - remove if you want to track)
+# pnpm-lock.yaml
+
+# Old JavaScript files (keeping for reference, remove after migration verified)
+# content/
+# popup/
+# background.js
+# manifest.json
+
