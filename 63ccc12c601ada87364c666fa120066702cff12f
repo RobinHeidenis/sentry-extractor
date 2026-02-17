@@ -1,0 +1,63 @@
+README.md
+  86de4ef771a7bdc7 1-110
+wxt.config.ts
+  86de4ef771a7bdc7 1-22,24-27
+src/vite-env.d.ts
+  86de4ef771a7bdc7 1-6
+utils/extractor/index.ts
+  86de4ef771a7bdc7 1-75
+utils/extractor/basic-info.ts
+  86de4ef771a7bdc7 1-19,21-27,29-38,40-42,44-55,57-60,62-86,88-91,93-105,107-109,111-114,116-179,181,183-196,198-199,201-202,204-205,207-217,219-220
+entrypoints/popup/main.ts
+  86de4ef771a7bdc7 1-5,8-10,12-17,20-24,26-29,31,33,35-37,42-43,66,69-71,73-74,77-79
+utils/extractor/additional-data.ts
+  86de4ef771a7bdc7 1-39
+utils/types.ts
+  86de4ef771a7bdc7 1-70
+package.json
+  86de4ef771a7bdc7 1-17,19-21,24
+entrypoints/content.ts
+  86de4ef771a7bdc7 1-8,13-14,17-24,26-27,32,35,42,48-50,56,59
+utils/extractor/contexts.ts
+  86de4ef771a7bdc7 1-12,15-19,21-23,25-27,29-44,46,48-59,61-63,65-89,91-95,97-100,102-115,117-121,123-124
+utils/extractor/dom-helpers.ts
+  86de4ef771a7bdc7 1-33,35-40,42-46,48-51,53-54,56-57,59-78,80-84,86-88,90-94,96-107,109-118,120-123,125-127,129-142,144-152,154-174,176-195,197-213,215-222,224-225
+utils/extractor/http-request.ts
+  86de4ef771a7bdc7 1-15,17,19-23,25-31,33-34
+.gitignore
+  86de4ef771a7bdc7 1-36
+utils/formatter.ts
+  86de4ef771a7bdc7 1-6,9-10,12-14,16-20,23-24,26-32,34,36-37,39,43-48,51,53-63,65-77,79,81,83-89,92-95,97,99-100,105-109,111-116,118,120,122,129-134,136,139-140,142-153,155-159,161,163-168,176,184,188,191,193,197,199-200,202-205,207,209-211,213-214,216-217,219-224,226-228,231,233-234,236,239,241-248,250,252-255,257-267,269,273-279,281-282,284-285,289,292,294,297-299
+entrypoints/popup/index.html
+  86de4ef771a7bdc7 1-131
+utils/extractor/stack-trace.ts
+  86de4ef771a7bdc7 1-17,19-23,25-28,30-35,37-41,43-47,49-61,63-64,66-76,78-89,91-92
+biome.json
+  86de4ef771a7bdc7 9,13-14
+utils/extractor/breadcrumbs.ts
+  86de4ef771a7bdc7 1-17,19-21,23-28,30-34,36-45,47-51,53-56,58-64,66-67
+utils/extractor/tags.ts
+  86de4ef771a7bdc7 1-27,29-32,34-54,56-69,71-86,88-98,100-111,113-124,126-138,140-158,160-164,166-178,180-181
+tsconfig.json
+  86de4ef771a7bdc7 1-7,9-14,16-20,22-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.42",
+  "base_commit_sha": "63ccc12c601ada87364c666fa120066702cff12f",
+  "prompts": {
+    "86de4ef771a7bdc7": {
+      "agent_id": {
+        "tool": "auggie",
+        "id": "c15d51cc-c1be-4263-8ca0-23c0d501e226",
+        "model": "Claude Opus 4.5"
+      },
+      "human_author": "Robin Heidenis <r.heidenis@hoorayhr.io>",
+      "messages": [],
+      "total_additions": 2900,
+      "total_deletions": 2335,
+      "accepted_lines": 2238,
+      "overriden_lines": 320
+    }
+  }
+}
