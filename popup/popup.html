@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentry to Jira</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h1>Sentry → Jira</h1>
+    </header>
+
+    <main>
+      <div id="status-message" class="status-message hidden"></div>
+      
+      <div id="not-sentry" class="message-box warning hidden">
+        <p>⚠️ This doesn't appear to be a Sentry issue page.</p>
+        <p class="hint">Navigate to a Sentry issue detail page to use this extension.</p>
+      </div>
+
+      <div id="main-content">
+        <p class="description">Extract issue details and copy them as Jira-formatted markdown.</p>
+        
+        <button id="extract-btn" class="primary-btn">
+          <span class="btn-icon">📋</span>
+          <span class="btn-text">Extract & Copy</span>
+        </button>
+        
+        <div class="options">
+          <label class="checkbox-label">
+            <input type="checkbox" id="include-breadcrumbs" checked>
+            <span>Include Breadcrumbs</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" id="include-contexts" checked>
+            <span>Include Contexts</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" id="include-tags" checked>
+            <span>Include Tags</span>
+          </label>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>v1.0.0 • <a href="#" id="help-link">Help</a></p>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
